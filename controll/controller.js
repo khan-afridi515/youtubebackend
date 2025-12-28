@@ -110,15 +110,7 @@ const oauth2Client = new google.auth.OAuth2(
         return res.status(404).json({ error: "Channel not authorized" });
       }
   
-      // oauth2Client.setCredentials({
-      //   access_token: token.access_token,
-      //   refresh_token: token.refresh_token
-      // });
-  
-      // await oauth2Client.getAccessToken();
-
-
-      
+   
 oauth2Client.setCredentials({
   access_token: token.access_token,
   refresh_token: token.refresh_token,
