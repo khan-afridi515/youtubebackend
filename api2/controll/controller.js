@@ -5,7 +5,6 @@ const fs = require('fs');
 const { google } = require('googleapis');
 const dotenv = require('dotenv');
 const User = require('../model/model');
-
 dotenv.config();
 
 
